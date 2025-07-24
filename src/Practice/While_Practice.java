@@ -1,4 +1,4 @@
-package Ch01_variable_operator;
+package Practice;
 import java.util.*;
 public class While_Practice {
     public static void main(String[] args) {
