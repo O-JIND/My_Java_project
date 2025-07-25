@@ -1,4 +1,4 @@
-package Ch01_variable_operator;
+package Ch02_control_statement;
 
 public class DoubleForEx2 {
     public static void main(String[] args) {

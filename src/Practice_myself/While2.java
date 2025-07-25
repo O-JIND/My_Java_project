@@ -1,4 +1,4 @@
-package Practice;
+package Practice_myself;
 import java.util.*;
 public class While2 {
     public static void main(String[] args) {

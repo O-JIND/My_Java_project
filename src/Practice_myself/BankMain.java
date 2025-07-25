@@ -1,4 +1,4 @@
-package Practice;
+package Practice_myself;
 
 public class BankMain {
     public static void main(String[] args) {
