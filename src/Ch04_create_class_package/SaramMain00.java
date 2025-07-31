@@ -38,7 +38,6 @@ public class SaramMain00 {
         sr.yusin().print();
         sr.soon().print();
 
-
     }
 
 }

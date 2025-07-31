@@ -1,9 +1,11 @@
 package Ch04_create_class_package;
 import java.util.*;
  class Tools{
-    String Name,Genre;
-    double Price,score;
-    Scanner sc = new Scanner(System.in);
+    private String Name,Genre;
+    private double Price,score;
+
+
+     Scanner sc = new Scanner(System.in);
      Tools(String Name, String Genre, double Price , double score){
         this.Name = Name;
         this.Genre=Genre;
