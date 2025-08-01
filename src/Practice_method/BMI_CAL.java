@@ -28,7 +28,9 @@ public class BMI_CAL {
 
 
     public static void main(String[] args) {
-        BMI_CAL spec = new BMI_CAL("JIN",170.3,74.65);
+        BMI_CAL spec = new BMI_CAL("JIN",161.2,50.4);
         spec.getBmiState();
+        double BB=spec.getBmi();
+        System.out.println(BB);
     }
 }

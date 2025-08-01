@@ -2,7 +2,7 @@ package Ch04_create_class_package;
 import java.util.*;
  class Tools{
     private String Name,Genre;
-    private double Price,score;
+    private double Price,score=000;
 
 
      Scanner sc = new Scanner(System.in);
@@ -12,6 +12,15 @@ import java.util.*;
         this.Price=Price;
         this.score=score;
     }
+     Tools(String Name, String Genre, double Price ){
+        this.Name = Name;
+        this.Genre=Genre;
+        this.Price=Price;
+
+    }
+
+
+
     public static Tools RandG(){//랜덤하게 뽑아 추천하기
         Random rand = new Random();
         List<Tools> games = Dataset.getGameList();

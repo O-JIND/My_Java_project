@@ -16,6 +16,9 @@ public class Dataset {
         Game.add(new Tools("GTA5", "Open World", 32.99, 96));
         Game.add(new Tools("Bioshock", "fps", 21, 96));
         Game.add(new Tools("Civilization5", "Strategy", 21, 90));
+        Game.add(new Tools("BattleGround", "Fps", 14.99));
+        Game.add(new Tools("CounterStrike2", "Fps", 14.99));
+
         return Game;
     }
 }

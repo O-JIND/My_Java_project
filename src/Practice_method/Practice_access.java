@@ -22,13 +22,19 @@ public class Practice_access {
     }
 
 
+    @Override
+    public String toString(){
+        String k = "이름 "+name+" 나이 "+age+" 번호 "+id;
+        return k;
+    }
+
+
 
     public static void main(String[] args) {
         Practice_access Pr = new Practice_access("KK",24,14108498);
         System.out.println(Pr.name);
-
+        System.out.println(Pr);
         Pr.setAge(28);
-        Pr.getAge();
         System.out.println(Pr);
 
     }

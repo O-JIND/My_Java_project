@@ -1,5 +1,4 @@
 package Problem_Practice;
-import com.sun.source.tree.Tree;
 
 import java.util.*;
 public class namelist {
