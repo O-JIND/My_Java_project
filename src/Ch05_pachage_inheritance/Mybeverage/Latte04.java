@@ -7,9 +7,14 @@ public class Latte04 extends Beverage04{
         super(name, price);
         this.milktype = milktype;
     }
+    @Override
+    public String toString() {
+        String msg = " 우유 종류 : " +milktype ;
+        return super.toString() + msg;
+    }
     public void enjoyLatte(){
 
-        System.out.println("Latte 는 말이야");
+        System.out.println(super.getName()+"는 말이야");
 
 
     }
